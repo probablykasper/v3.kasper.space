@@ -149,7 +149,7 @@
 					<p class="title">{video.title}</p>
 					<div
 						class="img"
-						style:background-image="url(https://i.ytimg.com/vi/{video.id}/sddefault.jpg)"
+						style:background-image="url(https://i.ytimg.com/vi/{video.id}/hqdefault.jpg)"
 					></div>
 				</a>
 			{/each}
@@ -203,7 +203,7 @@
 					<p class="title">{video.title}</p>
 					<div
 						class="img"
-						style:background-image="url(https://i.ytimg.com/vi/{video.id}/sddefault.jpg)"
+						style:background-image="url(https://i.ytimg.com/vi/{video.id}/hqdefault.jpg)"
 					></div>
 				</a>
 			{/each}
@@ -268,7 +268,7 @@
 					<p class="title">{video.title}</p>
 					<div
 						class="img"
-						style:background-image="url(https://i.ytimg.com/vi/{video.id}/sddefault.jpg)"
+						style:background-image="url(https://i.ytimg.com/vi/{video.id}/hqdefault.jpg)"
 					></div>
 				</a>
 			{/each}

@@ -38,7 +38,7 @@ async function fetch_channel_yt_videos(channel_id: string) {
 
 export async function load() {
 	return {
-		synctan_videos: fetch_channel_yt_videos('UCoMimPRPeR28TM3_0cinjVQ'),
+		shrive_videos: fetch_channel_yt_videos('UCoMimPRPeR28TM3_0cinjVQ'),
 		trap_united_videos: fetch_channel_yt_videos('UC0kHs8aHGQEtQODjt9XHjfQ'),
 		personal_videos: fetch_channel_yt_videos('UCy6jcAF6fZGttRvihyQixbA'),
 	}

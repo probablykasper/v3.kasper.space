@@ -101,7 +101,7 @@
 			<a target="_blank" class="twitter" title="Twitter" href="https://twitter.com/SpectralKH"></a>
 			<a class="discord" title="Discord">
 				<div class="popup hidden">
-					<input readonly class="popup-input" value="KH | Synctan &amp; Lacuna#6425" />
+					<input readonly class="popup-input" value="KH | Shrive &amp; Lacuna#6425" />
 				</div>
 			</a>
 			<a
@@ -128,14 +128,14 @@
 		</div>
 	</div>
 
-	<section class="synctan adjust-height">
+	<section class="shrive adjust-height">
 		<header class="flex-row">
-			<a target="_blank" href="https://www.youtube.com/Synctan">
-				<img src="/logos/project/synctan.png" />
+			<a target="_blank" href="https://www.youtube.com/Shrive">
+				<img src="/logos/project/shrive.png" />
 			</a>
 			<div class="text r">
 				<p class="title">
-					<a target="_blank" href="https://www.youtube.com/Synctan">Synctan</a>
+					<a target="_blank" href="https://www.youtube.com/Shrive">Shrive</a>
 				</p>
 				<p class="description">
 					A YouTube channel where I curate all kinds of music, every Monday, Wednesday and Friday.
@@ -143,7 +143,7 @@
 			</div>
 		</header>
 		<main class="adjust-height flex-row">
-			{#each data.synctan_videos.slice(0, 8) as video}
+			{#each data.shrive_videos.slice(0, 8) as video}
 				<a target="_blank" class="item" href="https://www.youtube.com/watch?v={video.id}">
 					<div class="overlay"></div>
 					<p class="title">{video.title}</p>

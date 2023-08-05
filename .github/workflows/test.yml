@@ -9,6 +9,8 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    env:
+      PUBLIC_EMAIL: example@example.com
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3

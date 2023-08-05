@@ -3,9 +3,7 @@ import { XMLParser } from 'fast-xml-parser'
 export const prerender = true
 
 async function fetch_channel_yt_videos(channel_id: string) {
-	const response = await fetch(
-		'https://www.youtube.com/feeds/videos.xml?channel_id='+channel_id,
-	)
+	const response = await fetch('https://www.youtube.com/feeds/videos.xml?channel_id=' + channel_id)
 	const text = await response.text()
 	const parser = new XMLParser()
 	const xml: {
